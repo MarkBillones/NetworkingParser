@@ -28,11 +28,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var resultsTextView: UITextView!
 
-    @IBAction func buttonTapped(_ sender: UIButton) {
-        
-        
-    }
-    
     fileprivate func setupActivityIndicator() {
         
 
