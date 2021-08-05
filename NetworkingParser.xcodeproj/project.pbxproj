@@ -13,6 +13,7 @@
 		45D952B326BA5D9B0072E37B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D952B126BA5D9B0072E37B /* Main.storyboard */; };
 		45D952B526BA5D9F0072E37B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45D952B426BA5D9F0072E37B /* Assets.xcassets */; };
 		45D952B826BA5D9F0072E37B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D952B626BA5D9F0072E37B /* LaunchScreen.storyboard */; };
+		5BE7EBC526BBC77B000F2032 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE7EBC426BBC77B000F2032 /* APIModel.swift */; };
 		5BF3442E26BA64E200FADCD5 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF3442D26BA64E200FADCD5 /* Protocols.swift */; };
 		5BF3443026BA650300FADCD5 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF3442F26BA650300FADCD5 /* Networking.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		45D952B426BA5D9F0072E37B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45D952B726BA5D9F0072E37B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45D952B926BA5D9F0072E37B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE7EBC426BBC77B000F2032 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
 		5BF3442D26BA64E200FADCD5 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		5BF3442F26BA650300FADCD5 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +71,7 @@
 				45D952B926BA5D9F0072E37B /* Info.plist */,
 				5BF3442D26BA64E200FADCD5 /* Protocols.swift */,
 				5BF3442F26BA650300FADCD5 /* Networking.swift */,
+				5BE7EBC426BBC77B000F2032 /* APIModel.swift */,
 			);
 			path = NetworkingParser;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				5BF3443026BA650300FADCD5 /* Networking.swift in Sources */,
 				45D952AC26BA5D9B0072E37B /* AppDelegate.swift in Sources */,
 				45D952AE26BA5D9B0072E37B /* SceneDelegate.swift in Sources */,
+				5BE7EBC526BBC77B000F2032 /* APIModel.swift in Sources */,
 				5BF3442E26BA64E200FADCD5 /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

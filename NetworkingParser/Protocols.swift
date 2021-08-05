@@ -8,5 +8,5 @@
 import Foundation
 
 protocol API {
-    func fetchPosts()
+    func fetchAlbums()
 }
