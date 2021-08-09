@@ -28,7 +28,7 @@ class MainViewController: UIViewController {
     }
     
     fileprivate func setupActivityIndicator() {
-
+        //auto-layout Programmaticaly
         activityIndicator.translatesAutoresizingMaskIntoConstraints = false
         activityIndicator.hidesWhenStopped = true
         self.view.addSubview(activityIndicator)
